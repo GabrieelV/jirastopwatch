@@ -231,9 +231,9 @@ namespace StopWatch
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(19, 182);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.Size = new System.Drawing.Size(69, 13);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Start Time";
+            this.label1.Text = "Tempo inicial";
             // 
             // startTimePicker
             // 
