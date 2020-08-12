@@ -146,7 +146,9 @@ namespace StopWatch
                 btnPostAndReset.Image = (System.Drawing.Image)Properties.Resources.posttimenote26;
 
             btnOpen.Enabled = cbJira.Text.Trim() != "";
-            btnReset.Enabled = WatchTimer.Running || WatchTimer.TimeElapsed.Ticks > 0;
+            btnRemoveIssue.Enabled = !WatchTimer.Running;
+            btnReset.Enabled = !WatchTimer.Running && WatchTimer.TimeElapsed.Ticks > 0;
+            //btnReset.Enabled = WatchTimer.Running || WatchTimer.TimeElapsed.Ticks > 0;
             btnPostAndReset.Enabled = WatchTimer.TimeElapsedNearestMinute.TotalMinutes >= 1;
 
             if (updateSummary)

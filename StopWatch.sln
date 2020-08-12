@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopWatch", "source\StopWatch\StopWatch.csproj", "{B7C11B2A-F064-4BA4-BD87-954197D7FF35}"
 EndProject
@@ -14,22 +14,43 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopWatchTest", "source\StopWatchTest\StopWatchTest.csproj", "{7F60E6E6-B488-4A6E-868B-796E3A42F552}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstaladorEcoStopWatch", "InstaladorEcoStopWatch\InstaladorEcoStopWatch.vdproj", "{5E5AF1D1-0843-42AE-9767-3A27EE4E0E2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|Default = Debug|Default
 		Release|Any CPU = Release|Any CPU
+		Release|Default = Release|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B7C11B2A-F064-4BA4-BD87-954197D7FF35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B7C11B2A-F064-4BA4-BD87-954197D7FF35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C11B2A-F064-4BA4-BD87-954197D7FF35}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{B7C11B2A-F064-4BA4-BD87-954197D7FF35}.Debug|Default.Build.0 = Debug|Any CPU
 		{B7C11B2A-F064-4BA4-BD87-954197D7FF35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7C11B2A-F064-4BA4-BD87-954197D7FF35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C11B2A-F064-4BA4-BD87-954197D7FF35}.Release|Default.ActiveCfg = Release|Any CPU
+		{B7C11B2A-F064-4BA4-BD87-954197D7FF35}.Release|Default.Build.0 = Release|Any CPU
 		{7F60E6E6-B488-4A6E-868B-796E3A42F552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7F60E6E6-B488-4A6E-868B-796E3A42F552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F60E6E6-B488-4A6E-868B-796E3A42F552}.Debug|Default.ActiveCfg = Debug|Any CPU
+		{7F60E6E6-B488-4A6E-868B-796E3A42F552}.Debug|Default.Build.0 = Debug|Any CPU
 		{7F60E6E6-B488-4A6E-868B-796E3A42F552}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F60E6E6-B488-4A6E-868B-796E3A42F552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F60E6E6-B488-4A6E-868B-796E3A42F552}.Release|Default.ActiveCfg = Release|Any CPU
+		{7F60E6E6-B488-4A6E-868B-796E3A42F552}.Release|Default.Build.0 = Release|Any CPU
+		{5E5AF1D1-0843-42AE-9767-3A27EE4E0E2E}.Debug|Any CPU.ActiveCfg = Debug
+		{5E5AF1D1-0843-42AE-9767-3A27EE4E0E2E}.Debug|Default.ActiveCfg = Debug
+		{5E5AF1D1-0843-42AE-9767-3A27EE4E0E2E}.Debug|Default.Build.0 = Debug
+		{5E5AF1D1-0843-42AE-9767-3A27EE4E0E2E}.Release|Any CPU.ActiveCfg = Release
+		{5E5AF1D1-0843-42AE-9767-3A27EE4E0E2E}.Release|Default.ActiveCfg = Release
+		{5E5AF1D1-0843-42AE-9767-3A27EE4E0E2E}.Release|Default.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF63C0B0-378D-45E2-99B3-65306AC10B69}
 	EndGlobalSection
 EndGlobal
