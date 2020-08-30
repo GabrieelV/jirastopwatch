@@ -664,7 +664,7 @@ namespace StopWatch
                     this.InvokeIfRequired(
                         () =>
                         {
-                            string msg = string.Format("There is a newer version available of Jira StopWatch.{0}{0}Latest release is {1}. You are running version {2}.{0}{0}Do you want to download latest release?",
+                            string msg = string.Format("Há uma nova versão disponível do StopWatch.{0}{0}A última release é {1}. Você está rodando a versão {1}.{0}{0}Quer baixar a última release?",
                                 Environment.NewLine,
                                 latestRelease.TagName,
                                 currentVersion);

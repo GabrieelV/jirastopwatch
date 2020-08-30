@@ -397,7 +397,7 @@ namespace StopWatch
             this.Controls.Add(this.btnOpen);
             this.Controls.Add(this.cbJira);
             this.Name = "IssueControl";
-            this.Size = new System.Drawing.Size(517, 58);
+            this.Size = new System.Drawing.Size(503, 55);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.IssueControl_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();

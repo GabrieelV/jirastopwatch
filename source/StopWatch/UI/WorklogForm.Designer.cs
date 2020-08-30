@@ -60,6 +60,8 @@ namespace StopWatch
             this.startDatePicker = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.startTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.cbStatusSolicitacao = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.gbRemainingEstimate.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -87,7 +89,7 @@ namespace StopWatch
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(243, 336);
+            this.btnCancel.Location = new System.Drawing.Point(246, 375);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(67, 23);
@@ -99,7 +101,7 @@ namespace StopWatch
             // 
             this.btnOk.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOk.Location = new System.Drawing.Point(183, 336);
+            this.btnOk.Location = new System.Drawing.Point(183, 375);
             this.btnOk.Margin = new System.Windows.Forms.Padding(2);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(56, 23);
@@ -111,7 +113,7 @@ namespace StopWatch
             // lblInfo
             // 
             this.lblInfo.AutoSize = true;
-            this.lblInfo.Location = new System.Drawing.Point(11, 316);
+            this.lblInfo.Location = new System.Drawing.Point(11, 351);
             this.lblInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblInfo.Name = "lblInfo";
             this.lblInfo.Size = new System.Drawing.Size(171, 13);
@@ -121,7 +123,7 @@ namespace StopWatch
             // btnSave
             // 
             this.btnSave.DialogResult = System.Windows.Forms.DialogResult.Yes;
-            this.btnSave.Location = new System.Drawing.Point(11, 336);
+            this.btnSave.Location = new System.Drawing.Point(11, 375);
             this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(115, 23);
@@ -153,7 +155,7 @@ namespace StopWatch
             this.gbRemainingEstimate.Controls.Add(this.rdEstimateAdjustAuto);
             this.gbRemainingEstimate.Location = new System.Drawing.Point(14, 208);
             this.gbRemainingEstimate.Name = "gbRemainingEstimate";
-            this.gbRemainingEstimate.Size = new System.Drawing.Size(299, 102);
+            this.gbRemainingEstimate.Size = new System.Drawing.Size(299, 101);
             this.gbRemainingEstimate.TabIndex = 2;
             this.gbRemainingEstimate.TabStop = false;
             this.gbRemainingEstimate.Text = "Remaining Estimate";
@@ -247,13 +249,32 @@ namespace StopWatch
             this.startTimePicker.Size = new System.Drawing.Size(59, 20);
             this.startTimePicker.TabIndex = 13;
             // 
+            // cbStatusSolicitacao
+            // 
+            this.cbStatusSolicitacao.FormattingEnabled = true;
+            this.cbStatusSolicitacao.Location = new System.Drawing.Point(132, 315);
+            this.cbStatusSolicitacao.Name = "cbStatusSolicitacao";
+            this.cbStatusSolicitacao.Size = new System.Drawing.Size(175, 21);
+            this.cbStatusSolicitacao.TabIndex = 8;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 318);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(114, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Mover solicitação para";
+            // 
             // WorklogForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(321, 367);
+            this.ClientSize = new System.Drawing.Size(324, 408);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.cbStatusSolicitacao);
             this.Controls.Add(this.startTimePicker);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.startDatePicker);
@@ -294,5 +315,7 @@ namespace StopWatch
         private DateTimePicker startDatePicker;
         private Label label1;
         private DateTimePicker startTimePicker;
+        private ComboBox cbStatusSolicitacao;
+        private Label label2;
     }
 }
