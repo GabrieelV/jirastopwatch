@@ -277,7 +277,7 @@ namespace StopWatch
             this.cbLoggingEnabbled.Location = new System.Drawing.Point(122, 89);
             this.cbLoggingEnabbled.Margin = new System.Windows.Forms.Padding(2);
             this.cbLoggingEnabbled.Name = "cbLoggingEnabbled";
-            this.cbLoggingEnabbled.Size = new System.Drawing.Size(132, 17);
+            this.cbLoggingEnabbled.Size = new System.Drawing.Size(134, 17);
             this.cbLoggingEnabbled.TabIndex = 6;
             this.cbLoggingEnabbled.Text = "Habilitar debug logging";
             this.cbLoggingEnabbled.UseVisualStyleBackColor = true;
@@ -287,7 +287,7 @@ namespace StopWatch
             this.lblOpenLogFolder.AutoSize = true;
             this.lblOpenLogFolder.Location = new System.Drawing.Point(264, 90);
             this.lblOpenLogFolder.Name = "lblOpenLogFolder";
-            this.lblOpenLogFolder.Size = new System.Drawing.Size(79, 13);
+            this.lblOpenLogFolder.Size = new System.Drawing.Size(94, 13);
             this.lblOpenLogFolder.TabIndex = 7;
             this.lblOpenLogFolder.TabStop = true;
             this.lblOpenLogFolder.Text = "Abrir pasta de logs";
@@ -404,7 +404,7 @@ namespace StopWatch
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "StopWatch Settings";
+            this.Text = "Configurações";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SettingsForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
